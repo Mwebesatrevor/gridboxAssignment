@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-size: 15px;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  border-radius: 20px;
+}
+.first-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 100%;
+}
+.second-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 100%;
+}
+.third-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 100%;
+}
+h3 {
+  color: hsl(0, 0%, 95%);
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-size: bold;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Big Shoulders Display", serif;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.button1{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(31, 77%, 52%);
+}
+.button1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(184, 100%, 22%);
+}
+.button2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.button3{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(179, 100%, 13%);
+}
+.button3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+.top-content .p-top {
+  font-weight: bold;
+  color: rgb(123, 255, 0);
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.bottom-content {
+  display: flex;
+  width: 100%;
+}
+.top-content .top-bottom {
+  background-color: rgb(22, 153, 153);
+  padding: 2em;
+  width: 50%;
+}
+.top-content .second-bottom {
+  background-color: rgb(30, 192, 192);
+  padding: 2em;
+  width: 50%;
+}
